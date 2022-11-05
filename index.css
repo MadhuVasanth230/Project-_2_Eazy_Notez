@@ -1,0 +1,82 @@
+body{
+    margin:0;
+    padding:10px;
+    padding-top:20px;
+    min-width:400px;
+    min-height:100vh;
+    font-family:'Fondamento' , 'Lobster Two','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#title{
+    font-weight:bold;
+    color:white;
+    padding:10px 20px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    background:linear-gradient(to left ,#00000b,grey,#00000b);
+}
+#notes{
+    border:1px solid blue;
+    width:100%;
+    min-height:40vh;
+    box-sizing:border-box;
+    outline:none;
+    border-radius:5px;
+    font-weight:bold;
+    color:grey;
+    margin-bottom:4px;
+    
+}
+button{
+    color:white;
+    background-color:blue;
+    border:none;
+    font-weight:bold;
+    padding:10px 20px;
+    border-radius:5px;
+    margin-right:3px;
+    font-family:'Fondamento' , 'Lobster Two','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ul{
+    padding:0;
+    margin-top:0;
+}
+li{
+    background-color:grey;
+    border-radius:5px;
+    padding:10px 10px;
+    padding-top:17.5px;
+    margin-bottom:3px;
+    display:flex;
+    text-align:center;
+    justify-content:space-between;
+    
+}
+a{
+    text-decoration:none;
+    font-weight:bold;
+    color:white;
+    text-align:center;
+    margin-top:3px;
+}
+#edit,#delete{
+    color:white;
+    background-color:blue;
+    border:none;
+    font-weight:bold;
+    padding:3px 7px;
+    border-radius:5px;
+}
+#saved_title{
+    color:white;
+    background:linear-gradient(to right,#00000b,grey,white);
+    font-weight:bold;
+    padding:10px 10px;
+    border-radius:5px;
+    margin-bottom:5px;
+    margin-top:7px;
+}
+#msg{
+    color:blue;
+    font-weight:bold;
+    font-size:15px;
+}
